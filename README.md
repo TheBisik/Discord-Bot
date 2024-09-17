@@ -82,12 +82,13 @@ curl -X POST http://[::1]:30119/send_message \
 
 - Channel ID: Provide the correct `channel_id` in your POST requests to ensure messages are sent to the correct channel.
 
+## RUN
+#### Go to Build directory and run as Admin(`sudo`) ```./build_discord_bot.sh```
 ## Notes
 - The Flask server is configured to listen on all IPv6 addresses (`::`) and port `30119`. Adjust the configuration if necessary.
 
 - Ensure that the bot has the necessary permissions in the Discord server to send messages to the specified channel.
 
-## License
 Brief explanation:
 
 - Discord Auto Build Bot: This is a hobbyist project
